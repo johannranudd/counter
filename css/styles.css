@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0%;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: hsl(209, 61%, 16%);
+    background-color: hsl(212, 33%, 89%);
+}
+
+.wrapper {
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+button {
+    padding: 5px 10px;
+    border: 2px solid hsl(209, 61%, 16%);
+    color: hsl(209, 61%, 16%);
+    background: transparent;
+    border-radius: 4px;
+    font-size: 15px;
+    cursor: pointer;
+}
